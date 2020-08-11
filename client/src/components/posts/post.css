@@ -1,0 +1,80 @@
+/* Colours */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a:link {
+  color: #05668d;
+}
+.theme-color {
+  color: #05668d;
+}
+.progressBar {
+  animation: move 2s linear infinite;
+}
+@keyframes move {
+  0% {
+    -webkit-transform: translate(-100%, 0);
+    -ms-transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
+  }
+  100% {
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+  }
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#028090, #f0f3bd);
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00ffff;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 400px));
+  grid-gap: 1em;
+}
+a:link {
+  text-decoration: none !important;
+}
+.deckStyle {
+  -webkit-box-shadow: 0px 2px 4px 0px #ccc;
+  -moz-box-shadow: 0px 2px 4px 0px #ccc;
+  box-shadow: 0px 2px 4px 0px #ccc;
+}
+.deckStyle:hover {
+  -webkit-transition: "all" 0.4s "ease-in-out";
+  -moz-transition: "all" 0.4s "ease-in-out";
+  -ms-transition: "all" 0.4s "ease-in-out";
+  -o-transition: "all" 0.4s "ease-in-out";
+  transition: "all" 0.4s "ease-in-out";
+  -webkit-box-shadow: 0px 6px 8px 2px #999;
+  -moz-box-shadow: 0px 6px 8px 2px #999;
+  box-shadow: 0px 6px 8px 2px #999;
+}
+.postCover {
+  background: #05668d;
+  color: #02c39a;
+}
+.viewPost {
+  overflow-wrap: break-word;
+}
+.postTitle {
+  color: #333;
+}
+.footerStyle {
+  color: #555;
+}
