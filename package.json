@@ -4,7 +4,7 @@
   "description": "MERN Stack Blog Fundamentals",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
+    "start": "node server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
@@ -26,6 +26,6 @@
     "validator": "^13.1.1"
   },
   "engines": {
-    "node": "6.11.1"
+    "node": "14.4.0"
   }
 }
